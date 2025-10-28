@@ -4,8 +4,8 @@ import { xss } from 'express-xss-sanitizer'
 import helmet from 'helmet';
 import compression from 'compression'
 import dotenv from 'dotenv';
-import router from '@app/api/router';
-import { env } from '@env/env';
+import router from 'api/router';
+import { env } from 'env';
 import { successHandler, errorHandler } from '@config/morgan'
 import ApiError from '@utils/ApiError';
 import { StatusCodes } from 'http-status-codes';

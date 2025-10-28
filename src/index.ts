@@ -1,4 +1,4 @@
-import app from '@app/app';
+import app from 'app';
 import { logger } from '@utils/logger';
 
 const PORT = process.env.PORT || 4000;

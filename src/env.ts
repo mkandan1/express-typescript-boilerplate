@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 import path from 'path';
-dotenv.config({ path: path.resolve(__dirname, '../../.env') });
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 const env = {
     DASHBOARD_URL: process.env.NEXT_DASHBOARD_URL!,
