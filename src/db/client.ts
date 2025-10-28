@@ -1,6 +1,6 @@
 import { createClient } from '@libsql/client';
 import { PrismaClient } from '@prisma/client';
-import { env } from '@env/env';
+import { env } from 'env';
 import { logger } from '@utils/logger';
 
 const isProd = env.ENV === 'production';

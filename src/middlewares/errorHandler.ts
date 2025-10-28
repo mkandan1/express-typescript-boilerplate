@@ -1,7 +1,7 @@
 import type { Request, Response, NextFunction } from 'express';
 import mongoose from 'mongoose';
 import { StatusCodes, getReasonPhrase } from 'http-status-codes';
-import { env } from '@env/env';
+import { env } from 'env';
 import { logger } from '@utils/logger';
 import ApiError from '@utils/ApiError';
 
